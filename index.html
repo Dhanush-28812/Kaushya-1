@@ -1,45 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kaushya</title>
-  <style>
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;
-         font-family:'Segoe UI',Arial,sans-serif;color:#e8f5ee;line-height:1.6;
-         background:radial-gradient(circle at 50% 0%,#12382a 0%,#0b1a14 65%)}
-    .wrap{max-width:640px;padding:40px 6%}
-    .logo{width:120px;height:120px;margin-bottom:20px;animation:spin 20s linear infinite}
-    @keyframes spin{to{transform:rotate(360deg)}}
-    h1{font-size:clamp(36px,7vw,60px);letter-spacing:3px;margin-bottom:8px;
-       background:linear-gradient(90deg,#3ddc84,#1fb6a6);-webkit-background-clip:text;color:transparent}
-    .tag{color:#9bb8a8;font-size:18px;margin-bottom:32px}
-    .info{background:#10281f;border:1px solid #1b4535;border-radius:16px;padding:24px 28px;text-align:left}
-    .info p{color:#c9dfd3;font-size:16px;margin-bottom:12px}
-    .info p:last-child{margin-bottom:0}
-    .info b{color:#3ddc84}
-    footer{margin-top:28px;color:#9bb8a8;font-size:14px}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <!-- Placeholder logo: replace with your own -->
-    <svg class="logo" viewBox="0 0 100 100">
-      <polygon points="50,5 90,27 90,73 50,95 10,73 10,27" fill="none" stroke="#3ddc84" stroke-width="5"/>
-      <ellipse cx="50" cy="50" rx="14" ry="20" fill="#1fb6a6"/>
-    </svg>
-
-    <h1>KAUSHYA</h1>
-    <div class="tag">Empowering hands in sericulture</div>
-
-    <div class="info">
-      <p><b>Who we are:</b> A student-led team from Wisdom World School, Wakad.</p>
-      <p><b>What we do:</b> We build low-cost, smart tools for the pre-cocoon stage of silk farming.</p>
-      <p><b>Our solutions:</b> Aakar (mounting), Nivara (harvesting) and a camera-based cocoon sorter.</p>
-    </div>
-
-    <footer>© 2026 Team Kaushya · your-email@example.com</footer>
-  </div>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Home | Team Kaushya</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap"><link rel="stylesheet" href="style.css"></head><body>
+<header><a class="brand" href="index.html"><img src="logo.png" alt="Kaushya">&#8203;</a><nav><a href="index.html" class=on>Home</a><a href="about.html">About</a><a href="problem.html">The problem</a><a href="solutions.html">Solutions</a><a href="aakar.html">Aakar</a><a href="nivara.html">Nivara</a><a href="sorter.html">Cocoon sorter</a><a href="research.html">Field research</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></header>
+<section class="hero"><svg class="hex" aria-hidden="true"><defs><pattern id="h" width="56" height="97" patternUnits="userSpaceOnUse" patternTransform="scale(1.1)"><path d="M28 0l28 16v32L28 64 0 48V16zM28 64v33M0 48L-28 64M56 48l28 16" fill="none" stroke="#3a6b47" stroke-width="2"/></pattern></defs><rect width="100%" height="100%" fill="url(#h)"/></svg><svg class="cocoon" viewBox="0 0 100 130" aria-hidden="true"><ellipse cx="50" cy="65" rx="38" ry="55" fill="#f5eccd"/><path d="M20 40c20 12 40 12 60 0M16 65c22 14 46 14 68 0M20 90c20 12 40 12 60 0" fill="none" stroke="#e8c76a" stroke-width="3"/></svg><div class="in"><h1>Better tools for the hands that raise silk</h1><p>Team Kaushya is a student-led startup building low-cost machines for the stage before the cocoon is sold: mounting, harvesting and sorting.</p><a class="btn" href="solutions.html">See our solutions</a><a class="btn alt" href="about.html">About us</a></div></section>
+<main><h2>Three stages, three tools</h2><div class="grid">
+<div class="tile"><h3>Mounting</h3><p>Aakar is a collapsible plastic mountage that keeps the familiar hexagonal form.</p><a href="aakar.html">Read about Aakar</a></div>
+<div class="tile b"><h3>Harvesting</h3><p>Nivara takes cocoons off the mountage without hours of hired hand labour.</p><a href="nivara.html">Read about Nivara</a></div>
+<div class="tile g"><h3>Sorting</h3><p>A camera-based sorter that grades cocoons by looking at each one.</p><a href="sorter.html">Read about the sorter</a></div></div>
+<div class="note">All three solutions are in the prototyping phase and still being developed.</div></main>
+<footer><p>Team Kaushya · Wisdom World School, Wakad, Pune</p><p><a href="contact.html">your-email@example.com</a></p></footer></body></html>
